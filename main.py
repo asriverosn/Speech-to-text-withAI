@@ -15,6 +15,7 @@ def main():
     if args.api_key is None:
         args.api_key = os.getenv("AAI_API_KEY")
         if args.api_key is None:
+            #message error
             raise RuntimeError("AAI_API_KEY environment variable not set. Try setting it now, or passing in your "
                                "API key as a command line argument with `--api_key`.")
 
