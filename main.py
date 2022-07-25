@@ -8,7 +8,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--audio_file', help='audio_ytb.mp3')
     parser.add_argument('--local', action='store_true', help='must be set if audio_file is a local filename')
-    parser.add_argument('--api_key', action='store', help='011fac57d1bc4391a12351fd105b5faf')
+    parser.add_argument('--api_key', action='store', help='API_KEY')
 
     args = parser.parse_args()
 
