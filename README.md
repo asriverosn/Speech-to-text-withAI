@@ -1,3 +1,3 @@
 # Speech-to-text-withAI
 
-Transcription using assemblyai
+Transcription using assemblyai (https://www.assemblyai.com/)
